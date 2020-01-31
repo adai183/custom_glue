@@ -1,0 +1,14 @@
+name: custom_glue
+
+channels:
+    - conda-forge
+    - fastai
+    
+
+dependencies:
+  - python=3.7
+  - pytorch
+  - transformers
+  - fastai
+  - pip:
+    - nbdev
