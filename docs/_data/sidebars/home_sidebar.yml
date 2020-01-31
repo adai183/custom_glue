@@ -13,6 +13,6 @@ entries:
       title: Custom Glue
       url: /core
     output: web
-    title: nbdev_template
+    title: custom_glue
   output: web
   title: Sidebar

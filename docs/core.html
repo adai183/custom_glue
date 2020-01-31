@@ -74,7 +74,7 @@ summary: "glue between fastai and hugging face's transformers"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="CustomTransformerModel" class="doc_header"><code>class</code> <code>CustomTransformerModel</code><a href="https://github.com/fastai/nbdev_template/tree/master/nbdev_template/core.py#L15" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>CustomTransformerModel</code>(<strong><code>transformer_model</code></strong>:<code>PreTrainedModel</code>) :: <code>Module</code></p>
+<h2 id="CustomTransformerModel" class="doc_header"><code>class</code> <code>CustomTransformerModel</code><a href="https://github.com/fastai/custom_glue/tree/master/custom_glue/core.py#L15" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>CustomTransformerModel</code>(<strong><code>transformer_model</code></strong>:<code>PreTrainedModel</code>) :: <code>Module</code></p>
 </blockquote>
 <p>Base class for all neural network modules.</p>
 <p>Your models should also subclass this class.</p>
@@ -118,7 +118,7 @@ parameters converted too when you call :meth:<code>to</code>, etc.</p>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="TransformersBaseTokenizer" class="doc_header"><code>class</code> <code>TransformersBaseTokenizer</code><a href="https://github.com/fastai/nbdev_template/tree/master/nbdev_template/core.py#L26" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TransformersBaseTokenizer</code>(<strong><code>pretrained_tokenizer</code></strong>:<code>PreTrainedTokenizer</code>, <strong><code>model_type</code></strong>=<em><code>'bert'</code></em>, <strong>**<code>kwargs</code></strong>) :: <code>BaseTokenizer</code></p>
+<h2 id="TransformersBaseTokenizer" class="doc_header"><code>class</code> <code>TransformersBaseTokenizer</code><a href="https://github.com/fastai/custom_glue/tree/master/custom_glue/core.py#L26" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TransformersBaseTokenizer</code>(<strong><code>pretrained_tokenizer</code></strong>:<code>PreTrainedTokenizer</code>, <strong><code>model_type</code></strong>=<em><code>'bert'</code></em>, <strong>**<code>kwargs</code></strong>) :: <code>BaseTokenizer</code></p>
 </blockquote>
 <p>Wrapper around PreTrainedTokenizer to be compatible with fast.ai</p>
 
@@ -142,7 +142,7 @@ parameters converted too when you call :meth:<code>to</code>, etc.</p>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="TransformersVocab" class="doc_header"><code>class</code> <code>TransformersVocab</code><a href="https://github.com/fastai/nbdev_template/tree/master/nbdev_template/core.py#L52" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TransformersVocab</code>(<strong><code>tokenizer</code></strong>:<code>PreTrainedTokenizer</code>) :: <code>Vocab</code></p>
+<h2 id="TransformersVocab" class="doc_header"><code>class</code> <code>TransformersVocab</code><a href="https://github.com/fastai/custom_glue/tree/master/custom_glue/core.py#L52" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TransformersVocab</code>(<strong><code>tokenizer</code></strong>:<code>PreTrainedTokenizer</code>) :: <code>Vocab</code></p>
 </blockquote>
 <p>Contain the correspondence between numbers and tokens and numericalize.</p>
 
